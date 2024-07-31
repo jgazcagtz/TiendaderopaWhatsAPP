@@ -4,7 +4,7 @@
 document.querySelectorAll('.whatsapp-button').forEach(button => {
     button.addEventListener('click', () => {
         console.log('¡Haz clic en el botón de WhatsApp!');
-        alert('Haz click aquí  para cerrar la ventana e ir a Wwhatsapp');
+        alert('Selecciona Cerrar  para ir a Whatsapp');
     });
 });
 
