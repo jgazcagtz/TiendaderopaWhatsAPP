@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #e94e77; /* Rojo vibrante para el encabezado */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
+}
+
+.product {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-content {
+    padding: 1.5em;
+}
+
+.product-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #e94e77; /* Rojo vibrante para el título */
+}
+
+.product-content p {
+    margin: 0.5em 0;
+    color: #555;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    background-color: #25d366; /* Color de WhatsApp */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
